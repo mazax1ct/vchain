@@ -1,0 +1,129 @@
+#portalcontent1 p:last-child,
+#portalcontent2 p:last-child,
+#portaltrackshipment form:last-child input,
+#portallogin input[type="submit"] {
+  margin-bottom: 0;
+}
+
+@media(max-width: 1023px) {
+  body {
+    hyphens: auto;
+  }
+
+  .main {
+    padding-top: 2rem;
+  }
+
+  #portalpage {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  small {
+    font-size: 100%;
+  }
+
+  #portalpage h1 {
+    font-size: 30px;
+  }
+
+  #portalbox {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  #portallogo {
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    order: 1;
+    position: static;
+    width: 76px;
+  }
+
+  #portalpage h2 {
+    order: 4;
+    position: static;
+    width: 100%;
+  }
+
+  #portalcontent1 {
+    order: 2;
+    position: static;
+    padding: 25px 30px;
+    width: 100%;
+  }
+
+  #portaltrackshipment {
+    order: 3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: static;
+    width: 100%;
+  }
+
+  #portalcontent2 {
+    height: auto;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    order: 5;
+    position: relative;
+    padding: 25px 30px;
+    top: auto;
+    width: 100%;
+  }
+
+  #portallogin {
+    background-color: rgba(241, 0, 28, 0.7);
+    height: auto;
+    order: 6;
+    position: static;
+    padding: 0 30px 30px;
+    width: auto;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1200px) {
+  #portallogo {
+    height: 120px;
+    width: 120px;
+  }
+
+  #portalsidetitle {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 20%;
+  }
+
+  #portalcontent1 {
+    height: 45%;
+    padding: 25px 30px;
+  }
+
+  #portaltrackshipment {
+    height: 45%;
+    left: 15%;
+    width: 35%;
+  }
+
+  #portalcontent2 {
+    height: 55%;
+    left: 20%;
+    padding: 30px;
+    top: 45%;
+    width: 45%;
+  }
+
+  #portallogin {
+    left: 65%;
+    padding-top: 65px;
+    width: 35%;
+  }
+}

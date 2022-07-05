@@ -1,0 +1,83 @@
+#portalcontent2 p:last-child,
+#portallogin input[type="submit"] {
+  margin-bottom: 0;
+}
+
+@media(max-width: 767px) {
+  .main {
+    padding-top: 2rem;
+  }
+
+  #portalpage {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  small {
+    font-size: 100%;
+  }
+
+  #portalpage h1 {
+    font-size: 30px;
+  }
+
+  #portalbox {
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  #portallogo {
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: static;
+    width: 100px;
+  }
+
+  #portalcontent2 {
+    height: auto;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 25px 30px 30px;
+    top: auto;
+    width: 100%;
+  }
+
+  #portallogin {
+    background-color: rgba(0, 179, 223, 0.7);
+    height: auto;
+    position: static;
+    padding: 0 30px 30px;
+    width: auto;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+  #portallogo {
+    height: 122px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: static;
+    width: 160px;
+  }
+
+  #portalcontent2 {
+    height: auto;
+    left: 3%;
+    padding: 30px;
+    width: 63%;
+  }
+
+  #portallogin {
+    left: 65%;
+    padding-top: 65px;
+    width: 36%;
+  }
+}
